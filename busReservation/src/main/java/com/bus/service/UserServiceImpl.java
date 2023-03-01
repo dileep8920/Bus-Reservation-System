@@ -24,4 +24,11 @@ public class UserServiceImpl implements UserService{
 		return u;
 	}
 
+
+	@Override
+	public User updateUser(User user) throws UserException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
