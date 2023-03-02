@@ -31,4 +31,11 @@ public class UserServiceImpl implements UserService{
 		return null;
 	}
 
+
+	@Override
+	public User deleteUser(User user) throws UserException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
