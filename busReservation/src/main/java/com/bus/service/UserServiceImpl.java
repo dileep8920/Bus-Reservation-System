@@ -1,5 +1,7 @@
 package com.bus.service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -28,12 +30,28 @@ public class UserServiceImpl implements UserService{
 	@Override
 	public User updateUser(User user) throws UserException {
 		// TODO Auto-generated method stub
+		
+		
 		return null;
 	}
 
 
 	@Override
 	public User deleteUser(User user) throws UserException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+	@Override
+	public User viewUser(int userid) throws UserException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+	@Override
+	public List<User> viewAllUser() throws UserException {
 		// TODO Auto-generated method stub
 		return null;
 	}
